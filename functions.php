@@ -1,3 +1,5 @@
+<?php
+
 add_filter('woocommerce_loop_add_to_cart_link', 'custom_quick_add_to_cart_button');
 
 function custom_quick_add_to_cart_button($link) {
